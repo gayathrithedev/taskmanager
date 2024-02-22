@@ -9,18 +9,20 @@ import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import HomeNav from './src/navigation';
-import {Provider} from 'react-redux';
-import store from './src/store';
+import StoreProvider from './src/store/StoreProvider';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 function App(): React.JSX.Element {
   return (
-    <NavigationContainer>
-      <Provider store={store}>
-        <SafeAreaView style={styles.safeArea}>
-          <HomeNav />
-        </SafeAreaView>
-      </Provider>
-    </NavigationContainer>
+    <GestureHandlerRootView style={styles?.safeArea}>
+      <NavigationContainer>
+        <StoreProvider>
+          <SafeAreaView style={styles.safeArea}>
+            <HomeNav />
+          </SafeAreaView>
+        </StoreProvider>
+      </NavigationContainer>
+    </GestureHandlerRootView>
   );
 }
 

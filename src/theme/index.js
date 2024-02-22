@@ -46,39 +46,39 @@ export const fontSize = {
 export const fonts = {
   thin: {
     fontFamily: 'Lexend-Thin',
-    fontWeight: '200',
+    fontWeight: '100',
   },
   extraLight: {
     fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontWeight: '200',
   },
   light: {
-    fontFamily: 'Lexend-ExtraLight',
+    fontFamily: 'Lexend-Light',
     fontWeight: '300',
   },
   regular: {
-    fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontFamily: 'Lexend-Regular',
+    fontWeight: '400',
   },
   medium: {
-    fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontFamily: 'Lexend-Medium',
+    fontWeight: '500',
   },
   semiBold: {
-    fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontFamily: 'Lexend-SemiBold',
+    fontWeight: '600',
   },
   bold: {
-    fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontFamily: 'Lexend-Bold',
+    fontWeight: '700',
   },
   extraBold: {
-    fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontFamily: 'Lexend-ExtraBold',
+    fontWeight: '800',
   },
   black: {
-    fontFamily: 'Lexend-ExtraLight',
-    fontWeight: '300',
+    fontFamily: 'Lexend-Dark',
+    fontWeight: '900',
   },
 };
 
